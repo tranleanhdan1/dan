@@ -62,7 +62,7 @@ logo ="""
 \033[1;96m█ ▼▼▼▼▼  _-_-- ●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
 \033[1;96m█.    _-_-- -_ --  Tran Le Anh Dan
 \033[1;96m█ ▲▲▲▲▲   -_ -«============✧==========»
-\033[1;96m█ ▲▲▲▲▲▲▲▲▲▲  Fb.com/anhdan11 ...!!▲▲▲▲▲▲▲▲▲▲
+\033[1;96m█ ▲▲▲▲▲▲▲▲▲▲ facebook : Fb.com/anhdan11 ...!!▲▲▲▲▲▲▲▲▲▲
 """
 
 # titik #
@@ -94,8 +94,8 @@ komengrup = []
 listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
-taikhoan = 'Ro0T'
-matkhau = 'P00R'
+taikhoan = 'dan'
+matkhau = 'dan'
 
 def an():
     os.system('reset')
@@ -110,15 +110,15 @@ def an():
         time.sleep(3)
         print 'tks you...!!'
         time.sleep(3)
-        print 'subscribe itu Gratis'
+        print 'vui long dang nhap '
         time.sleep(3)
         os.system('xdg-open https://m.facebook.com/anhdan11 ')
-        print 'User = dan  dan   Pasw = dan '
+        print 'tai khoan = dan     mat khau = dan '
         time.sleep(5)
-        print 'taikhoan dan matkhau dan'
-        uname = raw_input('\n\x1b[32;1m[\x1b[33;1m#\x1b[32;1m]\x1b[37;1m Username : ')
+        print 'taikhoan:dan va  matkhau:dan'
+        uname = raw_input('\n\x1b[32;1m[\x1b[33;1m#\x1b[32;1m]\x1b[37;1m tai khoan : ')
         if uname == taikhoan:
-            pwd = raw_input('\x1b[32;1m[\x1b[33;1m#\x1b[32;1m]\x1b[37;1m Password : ')
+            pwd = raw_input('\x1b[32;1m[\x1b[33;1m#\x1b[32;1m]\x1b[37;1m mat khau : ')
             if pwd == matkhau:
                 print '\x1b[32;1m[\x1b[32;1m+\x1b[32;1m]\x1b[37;1m login Berhasil'
                 cek = raw_input('\x1b[32;1m[\x1b[31;1m+\x1b[32;1m]\x1b[37;1m Press Enter to continue ')
@@ -130,7 +130,7 @@ def an():
                 an()
         else:
             print '\x1b[32;1m[\x1b[31;1m-\x1b[32;1m]\x1b[37;1m Username \x1b[31;1mSalah'
-            raw_input('\x1b[32;1m[\x1b[31;1m+\x1b[32;1m]\x1b[37;1m You Must Enter Again  ')
+            raw_input('\x1b[32;1m[\x1b[31;1m+\x1b[32;1m]\x1b[37;1m vui long nhap enter  ')
             an()
 
 ##### Pilih Login #####
